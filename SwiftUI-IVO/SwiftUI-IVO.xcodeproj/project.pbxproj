@@ -14,6 +14,8 @@
 		217D94B027953D14006722F2 /* SwiftUI_IVOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217D94AF27953D14006722F2 /* SwiftUI_IVOTests.swift */; };
 		217D94BA27953D14006722F2 /* SwiftUI_IVOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217D94B927953D14006722F2 /* SwiftUI_IVOUITests.swift */; };
 		217D94BC27953D14006722F2 /* SwiftUI_IVOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217D94BB27953D14006722F2 /* SwiftUI_IVOUITestsLaunchTests.swift */; };
+		217D94C9279570C3006722F2 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217D94C8279570C3006722F2 /* Employee.swift */; };
+		217D94CB279572A0006722F2 /* ContentView+Observed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217D94CA279572A0006722F2 /* ContentView+Observed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		217D94B527953D14006722F2 /* SwiftUI-IVOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-IVOUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		217D94B927953D14006722F2 /* SwiftUI_IVOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_IVOUITests.swift; sourceTree = "<group>"; };
 		217D94BB27953D14006722F2 /* SwiftUI_IVOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_IVOUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		217D94C8279570C3006722F2 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		217D94CA279572A0006722F2 /* ContentView+Observed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView+Observed.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				217D949E27953D12006722F2 /* SwiftUI_IVOApp.swift */,
 				217D94A027953D12006722F2 /* ContentView.swift */,
+				217D94CA279572A0006722F2 /* ContentView+Observed.swift */,
+				217D94C8279570C3006722F2 /* Employee.swift */,
 				217D94A227953D13006722F2 /* Assets.xcassets */,
 				217D94A427953D13006722F2 /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				217D94CB279572A0006722F2 /* ContentView+Observed.swift in Sources */,
 				217D94A127953D12006722F2 /* ContentView.swift in Sources */,
+				217D94C9279570C3006722F2 /* Employee.swift in Sources */,
 				217D949F27953D12006722F2 /* SwiftUI_IVOApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

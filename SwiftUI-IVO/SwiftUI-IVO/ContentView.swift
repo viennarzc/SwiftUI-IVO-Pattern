@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var observed = Observed()
+    
+    
     var body: some View {
-        Text("Hello, world!")
+        Text("Hello, \(observed.developer.name)!")
             .padding()
     }
 }
